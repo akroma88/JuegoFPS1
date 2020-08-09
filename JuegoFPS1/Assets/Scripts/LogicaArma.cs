@@ -80,7 +80,7 @@ public class LogicaArma : MonoBehaviour
         }
 
 
-        /*
+        
         if (Input.GetMouseButton(1))
         {
             transform.localPosition = Vector3.Slerp(transform.localPosition, ADS, tiempoApuntar * Time.deltaTime);
@@ -98,7 +98,7 @@ public class LogicaArma : MonoBehaviour
             transform.localPosition = Vector3.Slerp(transform.localPosition, disCadera, tiempoApuntar * Time.deltaTime);
             camaraPrincipal.fieldOfView = Mathf.Lerp(camaraPrincipal.fieldOfView, normal, tiempoApuntar * Time.deltaTime);
         }
-        */
+        
     }
 
     void habilitarArma()

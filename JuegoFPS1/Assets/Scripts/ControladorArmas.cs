@@ -9,7 +9,11 @@ public class ControladorArmas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        /*armas[0].gameObject.SetActive(true);
+        for (int i = 1; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }*/
     }
 
     // Update is called once per frame
